@@ -1,0 +1,142 @@
+@page { 
+	size landscape; 
+	margin: 2cm 
+}
+	
+div#masthead
+{
+	position: absolute;
+	top:0in;
+	left:2.8in;
+	width:  5in;
+	height:  1in;
+	text-align:center;
+	border-style:groove;
+}
+
+div#studentinfo
+{
+	position:absolute;
+	top:0in;
+	left:0in;
+	text-align:left;
+	border-style:groove;
+	width:2.5in;
+	height: 2in;
+}
+
+div#messages
+{
+	position: absolute;
+	top:1.2in;
+	left:2.8in;
+	width: 5in;
+	height: .8in;
+	text-align:center;
+	border-style:groove;
+}
+
+div#reports
+{
+	position: absolute;
+	top:2.1in;
+	left:0in;
+	width: 10.4in;
+	height:  4in;
+	margin: 0;
+	border-style:groove;
+}
+
+div#r1, div#r2, div#r3, div#r4, div#r5, div#r6, div#r7, div#r8
+{
+	width: 2.5in;
+	height: 1.8in;
+	border-style:groove;
+}
+
+div#r1
+{
+	position: absolute;
+	top: 0.0in;
+	left: 0.0in;
+}
+
+div#r2
+{
+	position: absolute;
+	top: 0.0in;
+	left: 2.6in;
+}
+
+div#r3
+{
+	position: absolute;
+	top: 0.0in;
+	left: 5.2in;
+}
+
+div#r4
+{
+	position: absolute;
+	top: 0.0in;
+	left: 7.8in;
+}
+
+div#r5
+{
+	position: absolute;
+	top: 1.9in;
+	left: 0.0in;
+}
+
+div#r6
+{
+	position: absolute;
+	top: 1.9in;
+	left: 2.6in;
+}
+
+div#r7
+{
+	position: absolute;
+	top: 1.9in;
+	left: 5.2in;
+}
+
+div#r8
+{
+	position: absolute;
+	top: 1.9in;
+	left: 7.8in;
+}
+
+div#footer
+{
+	position: absolute;
+	top: 7.5in;
+	left:0in;
+	width: 10in;
+	height:  .75in;
+	border-style:groove;
+}
+
+.title
+{
+	font-family:  Verdana;
+	font-size:  12pt;
+	font-weight:  bolder;
+}
+
+.normal
+{
+	font-family:  Verdana;
+	font-size:  10pt;
+	font-weight: normal;
+}
+
+.subtitle
+{
+	font-family:  Verdana;
+	font-size:  12pt;
+	font-weight: bold;
+}

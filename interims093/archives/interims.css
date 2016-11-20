@@ -1,0 +1,142 @@
+.title
+{
+	position:relative;
+	left:10px;
+	font-family: courier;
+	color:#000066;
+	font-weight:normal;
+	font-size: 170%
+}
+
+.subtitle
+{
+	position:relative;
+	left:10px;
+	font-family: courier;
+	font-size: 80%
+}
+
+.subtext
+{
+	position:relative;
+	left:10px;
+	font-family: courier;
+	font-size: 50%
+}
+
+.message
+{
+	font-family: courier;
+	left:10px;
+	margin-right:20px;
+	font-size: 80%;
+	color:#FF3300;
+	position:relative
+}
+
+
+div#masthead
+{
+	position:absolute;
+	left:10px;
+	top:10px;
+	height:150px;
+	width:310px;
+	border-left:groove;
+	border-top: groove;
+	border-bottom: groove
+}
+
+div#login
+{
+	position:relative;
+	top:10px
+}
+
+div#userinfo
+{
+	position:absolute;
+	left:323px;
+	top:10px;
+	height:100px;
+	width:487px;
+	border-style:groove
+}
+
+div#menu
+{
+	position:absolute;
+	left:323px;
+	top:113px;
+	height:22px;
+	width:487px;
+	border-style:groove
+}
+
+div#functions
+{
+	position:absolute;
+	left:323px;
+	top:138px;
+	height:22px;
+	width:487px;
+	border-style:groove
+}
+
+div#classes
+{
+	text-align:right
+}
+
+div#topbox
+{
+	position:absolute;
+	left:10px;
+	top:162px;
+	height:150px;
+	width:800px;
+	border-style:groove
+}
+
+div#midleftbox
+{
+	position:absolute;
+	left:10px;
+	top:315px;
+	height:510px;
+	width:210px;
+	border-style:groove
+}
+
+
+div#midbox
+{
+	position:absolute;
+	left:10px;
+	top:315px;
+	width:800px;
+	border-style:groove
+}
+
+div#midrightbox
+{
+
+	position:absolute;
+	left:223px;
+	top:315px;
+	height:510px;
+	width:400px;
+	border-style:groove
+}
+
+
+div#footer
+{
+
+	position:relative;
+	left:10px;
+	top:827px;
+	height:110px;
+	width:813px;
+	border-style:groove
+}

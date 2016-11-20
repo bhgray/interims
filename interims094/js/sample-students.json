@@ -1,0 +1,7 @@
+{ students:
+	[
+		{id:	"12345678", name:	"Gray, Brent", modified:	"2006-07-06"},
+		{id:	"12345678", name:	"Gray, Luke", modified:	"2006-07-04"},
+		{id:	"12345678", name:	"Gray, Tommy", modified:	"2006-07-05"}
+	]
+}

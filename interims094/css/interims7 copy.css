@@ -1,0 +1,59 @@
+body {
+	background: #E5E5E5;
+	font-family: lucida grande, verdana, sans-serif;
+	font-size: 12px;
+}
+
+#wrap
+	{
+		margin:		100px 100px 100px 150px;
+	}
+
+#login
+	{
+		border: 	10px solid rgb(204, 204, 204);
+		width:		450px;
+		height:		150px;
+	}
+	
+img#eslogo 
+	{
+		float:		left;
+	}
+
+#form
+	{
+	
+	
+	}
+
+#login input {
+     font-size: 14px;
+ }
+
+#login input#username input#password {
+     width: 150px;
+ }
+
+fl
+	{
+		position:		relative;
+		top:			-50px;
+		left:			150px;
+	}
+
+
+ft
+	{
+		font-size:		14px;
+		line-height:	28px;
+	}
+
+
+fi
+	{
+		font-size:		14px;
+		line-height:	28px;
+		margin-left:	15px;
+		
+	}

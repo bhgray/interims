@@ -1,0 +1,246 @@
+div#entries
+{
+	position:absolute;
+	border-style:solid;
+	border-width:1px;
+	padding:5px
+}
+
+div#entry
+{
+	position:relative;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+}
+
+.info
+{
+	position:relative;
+	border-style: solid;
+	border-width: 1px;
+	padding:5px;
+	float: left
+}
+
+.idlabel
+{
+	position:relative;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.firstlabel
+{
+	position:relative;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.lastlabel
+{
+	position:relative;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.id
+{
+	position:relative;
+	border-style: solid;
+	border-width: 1px;
+}
+
+div.first
+{
+	position:relative;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.last
+{
+	position:relative;
+	border-style: solid;
+	border-width: 1px;
+}
+
+div#interim
+{
+	position:relative;
+	border-style: solid;
+	border-width: 1px;
+	float:right
+}
+
+/*div#entries
+{
+	position:absolute;
+	left:10px;
+	width:832px;
+	padding:  10px;
+	border-style:solid
+}
+
+span#info
+{
+	position:absolute;
+	left:5px;
+	top:5px;
+	width:150px;
+	border-style:solid
+}
+
+span#idlabel
+{
+	position:relative;
+	left:10px;
+	top:0px;
+	height:10px;
+	width:30px;
+}
+span#id 
+{
+	position:relative;
+	top:-10px;
+	left:60px;
+	width:30px;
+}	
+
+span#firstlabel
+{
+	position:relative;
+	left:10px;
+	width:30px;
+}
+span#first
+{
+	position:relative;
+	left:60px;
+	top:-15px;
+	width:20px;
+}	
+
+span#lastlabel
+{
+	position:relative;
+	left:10px;
+	width:30px;
+}
+
+span#last
+{
+	position:relative;
+	left:60px;
+	top:-15px;
+	width:20px;
+}	
+
+div#interim
+{
+	position:relative;
+	left:170px;
+	top:-5px;
+	padding: 5px;
+	height:100px;
+	width:650px;
+	border-style:solid
+}
+
+div#satlabel
+{
+	position:relative;
+	left:0px;
+	width:50px
+}
+
+div#sat
+{
+	position:relative;
+	left:110px;
+	top:-15px;
+	width:180px;
+	border-style:groove
+}
+
+div#unsatlabel
+{
+	position:relative;
+	left:310px;
+	top:-35px;
+	width:30px
+}
+
+div#unsat
+{
+	position:relative;
+	left:450px;
+	top:-50px;
+	border-style:groove;
+	width:180px
+}
+
+
+div#faillabel
+{
+	position:relative;
+	left:0px;
+	top:-40px;
+	width:30px
+}
+
+div#fail
+{
+	position:relative;
+	left:110px;
+	top:-55px;
+	border-style:groove;
+	width:180px
+}
+
+div#commentslabel
+{
+	position:relative;
+	left:310px;
+	top:-75px;
+	width:30px
+}
+
+div#comments
+{
+	position:relative;
+	left:450px;
+	top:-90px;
+	border-style:groove;
+	width:180px
+}
+
+div#dangerlabel
+{
+	position:relative;
+	left:0px;
+	top:-60px;
+	width:150px
+}
+
+div#danger
+{
+	position:relative;
+	left:150px;
+	top:-75px;
+}
+
+div#submit
+{
+	position:relative;
+	left:300px;
+	top:-92px
+}
+
+.label
+{
+	font-family:courier;
+	font-size:75%
+}
+
+*/

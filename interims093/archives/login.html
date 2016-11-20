@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>HSES Interims System Login</title>
+	<meta name="generator" content="BBEdit 8.2" />
+	<meta name="robots" content="noindex,nofollow" />
+
+	<link href="styles/interims7.css" rel="stylesheet" type="text/css" media="all" />
+
+	<script type="text/javascript">
+		function checkLogin() {
+			if (document.getElementById('username').value == "") {
+				alert('You must enter a username');
+				return false;
+			} else {
+				document.getElementById('loginForm').action = 'account/authorize';
+				return true;
+			}
+		}
+	</script>
+
+</head>
+<body>
+<div id="wrap">
+	<div id="login">
+		<img alt="HSES Logo" height="75" id="logo" src="images/eslogo1.gif" />
+		<form action="account/authorize" id="loginform" method="post" onsubmit="return checkLogin();">
+			<fl>
+				<ft>Username:</ft>
+				<fi><input id="username" name="username" type="text" value="" /></fi><br />
+				<ft>Password:</ft>
+				<fi><input id="password" name="password" type="password" /></fi><br />
+				<fi><input alt="Log in" src="images/signin.gif" type="image" id="submit"/></fi>
+			</fl>
+		</form>
+	</div>
+</div>
+
+</body>
+</html>

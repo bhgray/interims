@@ -1,0 +1,157 @@
+@page { 
+	size landscape; 
+	margin: 0.5in
+}
+	
+div#masthead
+{
+	position: absolute;
+	top:0in;
+	left:0in;
+	width: 5in;
+	height:  1.25in;
+	border:solid 1px;
+}
+
+div#studentinfo
+{
+	position:absolute;
+	top:0in;
+	left:5.1in;
+	border:solid 1px;
+	width: 6.5in;
+	height: 1.25in;
+}
+
+div#reports
+{
+	position: absolute;
+	text-align: center;
+	top:1.3in;
+	left:0in;
+	width: 11in;
+	height: 6.5in;
+}
+
+
+.title
+{
+	font-family:  Verdana;
+	font-size:  12pt;
+	font-weight:  bolder;
+	text-align: center;
+}
+
+.normal
+{
+	font-family:  Verdana;
+	font-size:  10pt;
+	font-weight: normal;
+}
+
+.subtitle
+{
+	font-family:  Verdana;
+	font-size:  12pt;
+	font-weight: bold;
+	text-align:center
+}
+
+.coursetitle
+{
+	font-family:  Verdana;
+	font-size:  10pt;
+	font-weight: bold;
+	text-align:center;
+	border-bottom:  solid 2pt;
+}
+
+.commenttitle
+{
+	font-family:  Verdana;
+	font-size:  10pt;
+	font-weight: bold;
+	text-align:left;
+}
+
+
+.comment
+{
+	font-family:  Verdana;
+	font-size:  8pt;
+	font-weight: normal;
+	text-align:left;
+	position: relative;
+	left: 0.1in;
+}
+
+.important
+{
+	font-family:  Verdana;
+	font-size:  8pt;
+	font-weight: bold;
+	text-align:left;
+	position: relative;
+	left: 0.1in;
+}
+
+
+table.reportstable {
+	position: relative;
+	left: .25in;
+	height: 6.25in;
+	width: 11in;
+	margin-left: auto;
+   	margin-right: auto;
+	border-width: 3px 3px 3px 3px;
+	border-spacing: 1px;
+	border-style: solid solid solid solid;
+	border-color: gray gray gray gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+table.reportstable td {
+	width: 2.75in;
+	vertical-align: top;
+	border-width: 2px 2px 2px 2px;
+	padding: 3px 3px 3px 3px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+table.reportstable tr {
+	height: 50%;
+}
+
+
+table.footertable {
+	position: relative;
+	left: 1.25in;
+	border-collapse: collapse
+}
+
+table.footertable td.col1 td.col3 td.col5{
+	width: 3.75in;
+}
+
+table.footertable td.spacer {
+	width: 0.125in;	
+}
+
+table.footertable td.sigline {
+	width: 3.75in;
+	border-bottom: 2px;
+	border-style: solid;
+}
+
+div#footer
+{
+	position: absolute;
+	left:0in;
+	top: 7.75in;
+	width: 10in;
+	height:  0.75in;
+}

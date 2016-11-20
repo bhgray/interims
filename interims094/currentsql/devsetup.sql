@@ -1,0 +1,1 @@
+UPDATE `int_teachers` SET `active` = '1', `password` = 'password', `auth_level` = '11111', `last_login` = NULL, `message` = 'Your interims are due, Mr. Gray',`last_modified` = NOW() WHERE `schoolDistrictID` = 'MBG' LIMIT 1;

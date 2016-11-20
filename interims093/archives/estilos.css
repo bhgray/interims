@@ -1,0 +1,18 @@
+﻿/*
+Author: Henrique Costa Pereira
+Site: www.revolucao.etc.br
+Country Origin: Brazil
+*/
+
+table { font:0.7em Arial, Helvetica, sans-serif; background-color:#F2F2F2; }
+caption { background:#000 url("effect.gif") repeat-x; color:#FFF; text-transform:uppercase; font-weight:bold; font-size:1.2em; border:1px solid #000; }
+thead th { background:#F5B348 url("effect3.gif") repeat-x; color:#724809; padding:2px; text-transform:uppercase; border-top:1px solid #F4D39E; border-left:1px solid #F4D39E; border-bottom:1px solid #B76E00; border-right:1px solid #B76E00; }
+tfoot th { background:#F29601 url("effect5.gif") repeat-x; color:#724809; padding:2px; text-transform:uppercase; font-size:1.2em; }
+tfoot td { background:#FC0 url("effect4.gif") repeat-x; color:#724809; font-weight:bold; text-transform:uppercase; font-size:1.2em; padding:0px 5px; }
+.odd {  }
+tbody td { background:#D7DBDD url("effect2.gif") repeat-x; color:#000; padding:2px; text-align:center; border-top:1px solid #FFF; border-left:1px solid #FFF; border-bottom:1px solid #AFB5B8; border-right:1px solid #AFB5B8;  }
+tbody th { background:#000 url("effect.gif") repeat-x; color:#D7DBDD; padding:2px; text-align:center; border-top:1px solid #93A1AA; border-left:1px solid #93A1AA; border-bottom:1px solid #2F3B42; border-right:1px solid #2F3B42; }
+tbody td a {  color:#6C7579; text-decoration:none; font-weight:bold; }
+tbody td a:hover { background-color:#000; color:#FFF; }
+tbody th a { color:#FFF; text-decoration:none; font-weight:bold; }
+tbody th a:hover { color:#FC0; text-decoration:none; }

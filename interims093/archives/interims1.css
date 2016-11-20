@@ -1,0 +1,42 @@
+.entrytext
+{
+	font-family:courier;
+	font-size:80%
+}
+
+.coursename
+{
+	text-decoration: underline
+}
+
+.entrytable colgroup{
+	width:200px;
+}
+
+.entrytable col.studentlabelcolsize{
+	width:200px;
+}
+
+.entrytable col.submitcolsize{
+	width:40px;
+}
+
+.entrytable tr.edited {
+	background-color:#33FF66
+}
+
+.entrytable tr.unedited {
+	background-color:#FF3333
+}
+
+.entrytable tr.modified {
+	background-color:#FFFF66
+}
+
+.codestable col.codelabelsize {
+	width:5%;
+}
+
+.codestable col.textlabelsize {
+	width:15%;
+}

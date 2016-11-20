@@ -1,0 +1,43 @@
+div#wrap 
+	{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		position: absolute;
+		left: 50%;
+		margin-left: -400px;
+		width: 800px;
+		border: 1px solid #E7E7FF;	
+	}
+	
+div#topbox
+	{
+		padding: 0px;
+		vertical-align:  bottom;
+		height:  110px;
+		border-style:groove;
+	}
+	
+div#masthead
+	{
+		position:relative;
+		height:75px;
+		width:35%;
+		border-right: groove;
+		border-bottom: groove;
+	}
+
+div#userinfo
+	{
+		position:relative;
+		top:-78px;
+		float:right;
+		height:75px;
+		width:65%;
+		border-bottom: groove;
+	}
+
+form#loginform
+	{
+		position:relative;
+		padding: 5px 0px 0px 10px;
+	}

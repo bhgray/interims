@@ -1,0 +1,50 @@
+-> BASIC INTERIM QUERY ON A STUDENT <-
+
+SELECT students.firstName, students.lastName, courses.title, teachers.salutation, teachers.lastName, rosters.*
+FROM int_rosters rosters, int_courses courses, int_students students
+WHERE rosters.courseID = courses.courseID
+AND students.studentID = rosters.studentID
+AND teachers.schoolDistrictID = courses.teacherID
+ORDER BY courses.courseID ASC
+
+
+-> FINDS ALL FRESHMEN <-
+
+SELECT R.studentID, S.firstName, S.lastName
+FROM int_rosters R, int_courses C, int_students S
+WHERE R.courseID LIKE C.courseID
+AND R.studentID = S.studentID
+AND (LOCATE('BOOK 4', C.title) > 0)
+ORDER BY S.lastName ASC
+
+
+
+-> FINDS ALL FRESHMEN AND CREATES A BOOK COLUMN<-
+
+SELECT R.studentID, S.firstName, S.lastName, (SUBSTRING(C.title, LOCATE('BOOK 4', C.title)+LENGTH('BOOK '), 3)) as Book
+FROM int_rosters R, int_courses C, int_students S
+WHERE R.courseID LIKE C.courseID
+AND R.studentID = S.studentID
+AND (LOCATE('BOOK 4', C.title) > 0)
+ORDER BY Book ASC
+
+
+-> FINDS ALL SENIORS AND UPDATES THEIR ADVISORY FIELD<-
+
+UPDATE int_students S, int_rosters R, int_courses C, as Book
+SET S.advisory = SUBSTRING(C.title, LOCATE('BOOK 1', C.title)+LENGTH('BOOK '), 3)
+WHERE S.studentID = R.StudentID
+AND R.courseID = C.courseID
+AND (LOCATE('BOOK 1', C.title) > 0)
+
+
+-- > BY ADVISORY QUERY <--
+
+SELECT students.firstName, students.lastName, students.studentid, students.advisory, courses.title, teachers.salutation, teachers.lastName, rosters.*
+FROM int_rosters rosters, int_courses courses, int_students students, int_teachers teachers
+WHERE rosters.courseID = courses.courseID
+AND students.studentID = rosters.studentID
+AND teachers.schoolDistrictID = courses.teacherID
+ORDER BY students.advisory ASC
+
+

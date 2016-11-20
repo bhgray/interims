@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>HSES Interims System</title>
+	
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta http-equiv="expires" content="thu, 16 mar 2000 11:00:00 gmt" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta http-equiv="pragma" content="no-cache" />	
+
+ 	<link href="css/interims_0.6.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+		djConfig = {
+			baseRelativePath: "/lib/dojo/",
+			isDebug: true,
+			/*
+			This line caused errors... ?
+			debugAtAllCosts: true,
+			*/
+			preventBackButtonFix: true,
+			debugContainerId:"dojoDebug"	
+		};
+	</script>
+	<script type="text/javascript" src="lib/dojo/dojo.js"></script>
+	<script type="text/javascript">
+		dojo.require("dojo.widget.validate");
+		dojo.require("dojo.widget.Button");
+		dojo.require("dojo.io.cookie.*");
+		dojo.require("dojo.event.*");
+	</script>
+
+<!-- 
+	<script src="lib/prototype.js" type="text/javascript"></script>
+ -->
+	<script src="js/HSWModel095.js" type="text/javascript"></script>
+	<script src="js/HSWController095.js" type="text/javascript"></script>
+	<script src="js/HSWView095.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		dojo.widget.validate.ValidationTextbox.prototype.validColor="white";
+	</script>
+	<style type="text/css">
+	body {
+		padding: 1em;
+	}
+	.formQuestion {
+		background-color:#d0e3f5;
+		padding:0.3em;
+		font-weight:900;
+		font-family:Verdana, Arial, sans-serif;
+		font-size:0.8em;
+		color:#5a5a5a;
+	}
+	.formAnswer {
+		background-color:#f5eede;
+		padding:0.3em;
+		margin-bottom:1em;
+		width: 100%;
+	}
+	.pageSubContentTitle {
+			color:#8e8e8e;
+			font-size:1em;
+			font-family:Verdana, Arial, sans-serif;
+			margin-bottom:0.75em;
+	}
+	.small {
+		width: 2.5em;
+	}
+	.medium {
+		width: 10em;
+	}
+	.long {
+		width: 20em;
+	}
+
+	span.invalid, span.missing {
+		display: inline;
+		margin-left: 1em;
+		font-weight: bold;
+		font-style: italic;
+		font-family: Arial, Verdana, sans-serif;
+		color: #f66;
+		font-size: 0.9em;
+	}
+
+	.noticeMessage {
+		display: block;
+		float: right;
+		font-weight: normal;
+		font-family:Arial, Verdana, sans-serif;
+		color:#663;
+		font-size:0.9em;
+	}
+	/* group multiple buttons in a row */
+	div .dojoButton {
+		float: left;
+		margin-left: 10px;
+	}
+	</style>
+
+	
+</head>
+
+<body>
+
+<div>
+	<h1>HSES Interims System</h1>
+	<form method="get" id="loginForm">
+		<div class="formQuestion">
+			<span class="noticeMessage">
+				Login using your username and password.  
+				All fields are required.
+			</span>
+			<span class="emphasise">Login</span>
+		</div>
+		<table class="formAnswer" style="width: 100%;">
+			<tr>
+				<td class="emphasise">Username</td>
+				<td width="100%">
+					<input type="text" name="username" id="username" class="medium"
+						dojoType="ValidationTextBox"
+						required="true" 
+						uppercase="true" />
+				</td>
+			</tr>
+			<tr>
+				<td class="emphasise">Password</td>
+				<td>
+					<input type="password" name="password" id="password" class="medium"
+						dojoType="ValidationTextBox"
+						trim="true" />
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 7em;">
+					<button dojoType="Button" onclick="javascript:validateLogin()">
+						<img src="images/ok.gif" height="18" alt="OK" />
+						OK
+					</button>
+				</td>
+				<td style="width: 7em;">
+					<button dojoType="Button">
+						<img src="images/cancel.gif" height="18" alt="Cancel" />
+						Cancel
+					</button>
+				</td>
+			</tr>
+		</table>
+
+		
+	</form>
+	
+</div>
+<div id="dojoDebug"></div>
+</body>
+</html>
